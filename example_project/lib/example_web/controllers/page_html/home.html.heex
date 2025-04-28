@@ -1,0 +1,75 @@
+<div class="container mx-auto py-8 px-4">
+  <h1 class="text-3xl font-bold mb-6 text-center">LiveSvelte Examples</h1>
+  
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- Regular Svelte Examples -->
+    <div class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-xl font-bold mb-4 text-blue-600">Svelte Only Examples</h2>
+      <ul class="space-y-2">
+        <li><a href="/simple" class="text-blue-500 hover:underline">Simple Svelte</a></li>
+        <li><a href="/plus-minus-svelte" class="text-blue-500 hover:underline">Plus-Minus Counter</a></li>
+        <li><a href="/lodash" class="text-blue-500 hover:underline">Lodash Example</a></li>
+        <li><a href="/todo-list" class="text-blue-500 hover:underline font-bold">Todo List</a> (New!)</li>
+        <li><a href="/animated-tasks" class="text-blue-500 hover:underline font-bold">Animated Tasks</a> (New!)</li>
+      </ul>
+    </div>
+    
+    <!-- LiveView Examples -->
+    <div class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-xl font-bold mb-4 text-green-600">LiveView Only Examples</h2>
+      <ul class="space-y-2">
+        <li><a href="/plus-minus-liveview" class="text-blue-500 hover:underline">Plus-Minus LiveView</a></li>
+        <li><a href="/counter" class="text-blue-500 hover:underline">Counter</a></li>
+      </ul>
+    </div>
+    
+    <!-- Hybrid Examples -->
+    <div class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-xl font-bold mb-4 text-purple-600">Hybrid Examples (LiveView + Svelte)</h2>
+      <ul class="space-y-2">
+        <li><a href="/plus-minus-hybrid" class="text-blue-500 hover:underline">Plus-Minus Hybrid</a></li>
+        <li><a href="/log-list" class="text-blue-500 hover:underline">Log List</a></li>
+        <li><a href="/breaking-news" class="text-blue-500 hover:underline">Breaking News</a></li>
+        <li><a href="/chat" class="text-blue-500 hover:underline">Chat</a></li>
+        <li><a href="/todo-list-live" class="text-blue-500 hover:underline font-bold">Todo List Hybrid</a> (New!)</li>
+        <li><a href="/fancy-card" class="text-blue-500 hover:underline font-bold">FancyCard Demo</a> (New!)</li>
+      </ul>
+    </div>
+    
+    <!-- Advanced Examples -->
+    <div class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-xl font-bold mb-4 text-orange-600">Advanced Examples</h2>
+      <ul class="space-y-2">
+        <li><a href="/lights" class="text-blue-500 hover:underline">Lights</a></li>
+        <li><a href="/struct" class="text-blue-500 hover:underline">Struct</a></li>
+        <li><a href="/sigil" class="text-blue-500 hover:underline">Sigil</a></li>
+        <li><a href="/live-json" class="text-blue-500 hover:underline">Live JSON</a></li>
+      </ul>
+    </div>
+    
+    <!-- Component Composition -->
+    <div class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-xl font-bold mb-4 text-red-600">Component Composition</h2>
+      <ul class="space-y-2">
+        <li><a href="/slots-simple" class="text-blue-500 hover:underline">Slots Simple</a></li>
+        <li><a href="/slots-dynamic" class="text-blue-500 hover:underline">Slots Dynamic</a></li>
+        <li><a href="/composition" class="text-blue-500 hover:underline">Composition</a></li>
+        <li><a href="/client-side-loading" class="text-blue-500 hover:underline">Client Side Loading</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- High-Fidelity Svelte FancyCard Example -->
+  <div class="my-8">
+    <h2 class="text-xl font-bold mb-4 text-pink-600 text-center">Featured: High-Fidelity Svelte FancyCard</h2>
+    <div class="flex justify-center">
+      <.svelte
+        name="FancyCard"
+        title="Reusable Svelte Card"
+        subtitle="Powered by LiveSvelte"
+        image="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
+        content="This card is rendered as a Svelte component, seamlessly integrated with Phoenix LiveView via LiveSvelte. You can reuse this component anywhere!"
+      />
+    </div>
+  </div>
+</div>

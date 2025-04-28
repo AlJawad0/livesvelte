@@ -1,0 +1,19 @@
+# Elixir build artifacts
+/_build
+/deps
+
+# Node build artifacts
+/assets/node_modules
+/assets/.svelte-kit
+/assets/build
+
+# Editor/project files
+/.elixir_ls
+/.vscode
+/.git
+/test
+/priv/static/uploads
+*.swp
+*.swo
+*.tmp
+.DS_Store
